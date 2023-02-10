@@ -30,7 +30,7 @@ sety(-170)
 end_fill()
 
 //anjoma
-color('red', 'yellow')
+color('blue', 'green')
 begin_fill()
 while True:
     forward(200)
