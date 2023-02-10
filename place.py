@@ -1,6 +1,6 @@
 from turtle import *
 import random
-
+turtle.title("AnJoMa HACKED")
 Screen().setup(width=1.0, height=1.0)
 speed(0)
 
@@ -30,13 +30,6 @@ sety(-170)
 end_fill()
 
 //anjoma
-color('blue', 'green')
-begin_fill()
-while True:
-    forward(200)
-    left(170)
-    if abs(pos()) < 1:
-        break
-end_fill()
-done()
-
+t = turtle.Turtle()
+r = 50
+t.circle(r)
