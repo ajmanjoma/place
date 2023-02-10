@@ -69,11 +69,6 @@ pen.write(" _ __   ___  ___   ___| |__   ___   ___  _ __   ___ _ __ __ _  __| | 
 pen.penup()
 pen.goto(-500,60)
 pen.pendown()
-pen.write("| '_ \\ / _ \\ / _ \\ / __| '_ \\ / _ \\ / _ \\| '_ \\ / _ \\ '__/ _` |/ _` |/ _` |", align="left", font=("monospace", 16, "bold"))
-pen.penup()
-pen.goto(-500,40)
-pen.pendown()
-
 # ------- -------- #
 #      end         #
 # nee shooperada   #
@@ -90,3 +85,27 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+
+
+
+
+~AnJoMA~
+t = turtle.Turtle()
+s = 50
+# drawing first side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing second side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing third side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing fourth side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+~end~
